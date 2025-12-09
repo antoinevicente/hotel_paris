@@ -22,13 +22,13 @@ library(rsconnect)
 #setwd("D:/webmapping")
 
 # charger les hôtels
-hotels = st_read("data/hotels.gpkg")
+hotels = st_read("hotels.gpkg")
 
 # charger les arrondissements
-arrondissements = st_read("data/arrondissements.gpkg")
+arrondissements = st_read("arrondissements.gpkg")
 
 # charger les zones touristiques internationales 
-zones_tour <- st_read("data/zones_touristiques.geojson")
+zones_tour <- st_read("zones_touristiques.geojson")
 
 # palette de couleurs pour les étoiles
 etoiles <- sort(unique(hotels$classement))
@@ -268,4 +268,5 @@ server <- function(input, output, session) {
 # LANCER L'APPLICATION
 # --------------------------
 shinyApp(ui, server)
+
 
