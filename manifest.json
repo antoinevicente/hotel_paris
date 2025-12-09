@@ -1,17 +1,9 @@
 {
-  "version": 1,
-  "locale": "fr-FR",
-  "metadata": {
-    "appmode": "shiny",
-    "entrypoint": "app.R",
-    "name": "hotels_paris",
-    "title": "Visualisation des hôtels classés à Paris",
-    "description": "Application Shiny pour visualiser les hôtels par arrondissement et par classement, avec diagrammes et zones touristiques."
-  },
-  "platform": {
-    "version": "4.4.1",
-    "distribution": "ubuntu-22"
-  },
+  "name": "hotels_paris",
+  "version": "1.0.0",
+  "description": "Visualisation des hôtels classés à Paris",
+  "appmode": "shiny",
+  "entrypoint": "app.R",
   "r": {
     "version": "4.4.1"
   },
