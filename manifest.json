@@ -2,12 +2,13 @@
   "metadata": {
     "name": "hotels_paris",
     "title": "Visualisation des hôtels classés à Paris",
-    "description": "Application Shiny pour visualiser les hôtels par arrondissement et leur classement, avec diagrammes et zones touristiques.",
+    "description": "Application Shiny pour visualiser les hôtels par arrondissement et par classement, avec diagrammes et zones touristiques.",
     "language": "fr-FR"
   },
   "application": {
     "type": "r",
     "primary_r_file": "app.R",
+    "rVersion": "4.4.1",
     "packages": [
       "shiny",
       "knitr",
