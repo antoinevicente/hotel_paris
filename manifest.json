@@ -1,23 +1,28 @@
 {
+  "version": 1,
+  "locale": "fr-FR",
   "metadata": {
+    "appmode": "shiny",
+    "entrypoint": "app.R",
     "name": "hotels_paris",
     "title": "Visualisation des hôtels classés à Paris",
-    "description": "Application Shiny pour visualiser les hôtels par arrondissement et par classement, avec diagrammes et zones touristiques.",
-    "language": "fr-FR"
+    "description": "Application Shiny pour visualiser les hôtels par arrondissement et par classement, avec diagrammes et zones touristiques."
   },
-  "application": {
-    "type": "r",
-    "primary_r_file": "app.R",
-    "rVersion": "4.4.1",
-    "packages": [
-      "shiny",
-      "knitr",
-      "shinytitle",
-      "sf",
-      "dplyr",
-      "cartography",
-      "leaflet",
-      "rsconnect"
-    ]
-  }
+  "platform": {
+    "version": "4.4.1",
+    "distribution": "ubuntu-22"
+  },
+  "r": {
+    "version": "4.4.1"
+  },
+  "packages": [
+    "shiny",
+    "knitr",
+    "shinytitle",
+    "sf",
+    "dplyr",
+    "cartography",
+    "leaflet",
+    "rsconnect"
+  ]
 }
